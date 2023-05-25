@@ -35,6 +35,7 @@ async function fecthUsers() {
     email.innerHTML = `${user.email}`;
     cardBody.appendChild(email);
 
+    
     //dom phone
     const phone = document.createElement('p')
         phone.className = 'text-sm mt-1';
